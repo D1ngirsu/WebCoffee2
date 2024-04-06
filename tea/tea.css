@@ -1,0 +1,79 @@
+/* Skip to Main Content link styles */
+.skip-to-main {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 999;
+}
+
+.skip-to-main:focus {
+    top: 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Page title styles */
+.page-title {
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+
+/* Image gallery styles */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Tea description styles */
+.tea-description {
+    color: red;
+    text-align: right;
+}
+
+/* Tea menu styles */
+.tea-menu {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tea-menu th, .tea-menu td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1}
