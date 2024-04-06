@@ -1,0 +1,104 @@
+/* Skip to Main Content link styles */
+.skip-to-main {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 999;
+}
+
+.skip-to-main:focus {
+    top: 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Page title styles */
+.page-title {
+    color: white;
+    background-color: red;
+    text-align: center;
+}
+
+/* Divider styles */
+.divider {
+    size: 5px;
+    color: gray;
+    
+}
+
+/* Links container styles */
+.links-container {
+    text-align: center;
+}
+
+/* Section title styles */
+.section-title {
+    text-align: center;
+}
+
+/* Coffee description styles */
+.coffee-description {
+    color: brown;
+}
+
+.highlighted {
+    color: red;
+}
+
+/* Coffee list styles */
+.coffee-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Menu link styles */
+.menu-link {
+    display: block;
+    text-align: center;
+}
+
+/* Main image styles */
+.main-image {
+    width: 100%;
+    height: auto;
+    border: 5px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Tea description styles */
+.tea-description {
+    color: blue;
+    text-align: right;
+}
+
+/* Tea list styles */
+.tea-list {
+    list-style-type: upper-roman;
+    padding-left: 20px;
+}
